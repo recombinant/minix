@@ -1,5 +1,5 @@
-#ifndef TYPE_H
-#define TYPE_H
+#ifndef MINIX_KERNEL_TYPE_H_
+#define MINIX_KERNEL_TYPE_H_
 
 #include <minix/com.h>
 #include <machine/interrupt.h>
@@ -27,4 +27,4 @@ typedef struct irq_hook {
 
 typedef int (*irq_handler_t)(struct irq_hook *);
 
-#endif /* TYPE_H */
+#endif // MINIX_KERNEL_TYPE_H_

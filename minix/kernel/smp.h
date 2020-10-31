@@ -1,5 +1,5 @@
-#ifndef __SMP_H__
-#define __SMP_H__
+#ifndef MINIX_KERNEL_SMP_H_
+#define MINIX_KERNEL_SMP_H_
 
 #ifdef CONFIG_SMP
 
@@ -79,4 +79,4 @@ void smp_sched_handler(void);
 
 #endif /* CONFIG_SMP */
 
-#endif /* __SMP_H__ */
+#endif // MINIX_KERNEL_SMP_H_

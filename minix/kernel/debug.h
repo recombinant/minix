@@ -1,5 +1,5 @@
-#ifndef DEBUG_H
-#define DEBUG_H
+#ifndef MINIX_KERNEL_DEBUG_H_
+#define MINIX_KERNEL_DEBUG_H_
 
 /* This header file defines all debugging constants and macros, and declares
  * some variables. Certain debugging features redefine standard constants
@@ -90,4 +90,4 @@
 #define DEBUGMAX(params)   DEBUG_PRINT(params, VERBOSEBOOT_MAX)
 #endif
 
-#endif /* DEBUG_H */
+#endif // MINIX_KERNEL_DEBUG_H_

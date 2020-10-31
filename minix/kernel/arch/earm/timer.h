@@ -1,7 +1,6 @@
-
-#ifndef _KERN_TIMER_H
-#define _KERN_TIMER_H
+#ifndef MINIX_KERNEL_ARCH_EARM_TIMER_H_
+#define MINIX_KERNEL_ARCH_EARM_TIMER_H_
 
 #include "omap_timer.h"
 
-#endif
+#endif // MINIX_KERNEL_ARCH_EARM_TIMER_H_

@@ -1,7 +1,7 @@
-#ifndef __SCONST_H__
-#define __SCONST_H__
+#ifndef MINIX_KERNEL_ARCH_EARM_SCONST_H_
+#define MINIX_KERNEL_ARCH_EARM_SCONST_H_
 
 #include "kernel/const.h"
 #include "kernel/procoffsets.h"
 
-#endif /* __SCONST_H__ */
+#endif // MINIX_KERNEL_ARCH_EARM_SCONST_H_

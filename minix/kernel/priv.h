@@ -1,5 +1,5 @@
-#ifndef PRIV_H
-#define PRIV_H
+#ifndef MINIX_KERNEL_PRIV_H_
+#define MINIX_KERNEL_PRIV_H_
 
 /* Declaration of the system privileges structure. It defines flags, system 
  * call masks, an synchronous alarm timer, I/O privileges, pending hardware 
@@ -102,4 +102,4 @@ EXTERN struct priv *ppriv_addr[NR_SYS_PROCS];	/* direct slot pointers */
 #error NR_SYS_PROCS must be larger than NR_BOOT_PROCS
 #endif
 
-#endif /* PRIV_H */
+#endif // MINIX_KERNEL_PRIV_H_

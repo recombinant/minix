@@ -1,5 +1,5 @@
-#ifndef IPC_FILTER_H
-#define IPC_FILTER_H
+#ifndef MINIX_KERNEL_IPC_FILTER_H_
+#define MINIX_KERNEL_IPC_FILTER_H_
 
 /* Declaration of the ipc filter structure. It provides a framework to
  * selectively allow/disallow ipc messages a process agrees to receive. To this
@@ -70,4 +70,4 @@ EXTERN ipc_filter_t ipc_filter_pool[IPCF_POOL_SIZE];
 	} while(0)
 #define IPCF_POOL_INIT(S) memset(&ipc_filter_pool,0,sizeof(ipc_filter_pool))
 
-#endif /* !IPC_FILTER_H */
+#endif // MINIX_KERNEL_IPC_FILTER_H_

@@ -1,5 +1,5 @@
-#ifndef _OMAP_INTR_H
-#define _OMAP_INTR_H
+#ifndef MINIX_KERNEL_ARCH_EARM_BSP_TI_OMAP_INTR_REGISTERS_H_
+#define MINIX_KERNEL_ARCH_EARM_BSP_TI_OMAP_INTR_REGISTERS_H_
 
 /* Interrupt controller memory map */
 #define OMAP3_DM37XX_INTR_BASE 0x48200000 /* INTCPS physical address */
@@ -233,4 +233,4 @@
 
 #define OMAP3_AM335X_NR_IRQ_VECTORS    125 
 
-#endif /* _OMAP_INTR_H */
+#endif // MINIX_KERNEL_ARCH_EARM_BSP_TI_OMAP_INTR_REGISTERS_H_

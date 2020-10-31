@@ -1,5 +1,5 @@
-#ifndef PROFILE_H
-#define PROFILE_H
+#ifndef MINIX_KERNEL_PROFILE_H_
+#define MINIX_KERNEL_PROFILE_H_
 
 #include <minix/profile.h>
 
@@ -21,5 +21,4 @@ void nmi_sprofile_handler(struct nmi_frame * frame);
 
 #endif /* SPROFILE */
 
-#endif /* PROFILE_H */
-
+#endif // MINIX_KERNEL_PROFILE_H_

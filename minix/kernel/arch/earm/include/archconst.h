@@ -1,6 +1,5 @@
-
-#ifndef _ARM_ACONST_H
-#define _ARM_ACONST_H
+#ifndef MINIX_KERNEL_ARCH_EARM_INCLUDE_ARCHCONST_H_
+#define MINIX_KERNEL_ARCH_EARM_INCLUDE_ARCHCONST_H_
 
 #include <machine/interrupt.h>
 #include <machine/memory.h>
@@ -48,4 +47,4 @@
 
 #define PG_ALLOCATEME ((phys_bytes)-1)
 
-#endif /* _ARM_ACONST_H */
+#endif // MINIX_KERNEL_ARCH_EARM_INCLUDE_ARCHCONST_H_

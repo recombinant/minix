@@ -1,5 +1,5 @@
-#ifndef _ARM_IO_H_
-#define _ARM_IO_H_
+#ifndef MINIX_KERNEL_ARCH_EARM_INCLUDE_IO_H_
+#define MINIX_KERNEL_ARCH_EARM_INCLUDE_IO_H_
 
 #ifndef __ASSEMBLY__
 
@@ -13,4 +13,4 @@
 
 #endif /* __ASSEMBLY__ */
 
-#endif /* _ARM_IO_H_ */
+#endif // MINIX_KERNEL_ARCH_EARM_INCLUDE_IO_H_

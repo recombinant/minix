@@ -1,5 +1,5 @@
-#ifndef __ACPI_H__
-#define __ACPI_H__
+#ifndef MINIX_KERNEL_ARCH_I386_ACPI_H_
+#define MINIX_KERNEL_ARCH_I386_ACPI_H_
 
 #include "kernel/kernel.h"
 
@@ -159,4 +159,4 @@ struct acpi_madt_ioapic * acpi_get_ioapic_next(void);
 /* same as above for local APICs */
 struct acpi_madt_lapic * acpi_get_lapic_next(void);
 
-#endif /* __ACPI_H__ */
+#endif // MINIX_KERNEL_ARCH_I386_ACPI_H_

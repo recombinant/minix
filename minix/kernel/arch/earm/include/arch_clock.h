@@ -1,6 +1,6 @@
-#ifndef __CLOCK_ARM_H__
-#define __CLOCK_ARM_H__
+#ifndef MINIX_KERNEL_ARCH_EARM_INCLUDE_ARCH_CLOCK_H_
+#define MINIX_KERNEL_ARCH_EARM_INCLUDE_ARCH_CLOCK_H_
 
 void arch_timer_int_handler(void);
 
-#endif /* __CLOCK_ARM_H__ */
+#endif // MINIX_KERNEL_ARCH_EARM_INCLUDE_ARCH_CLOCK_H_

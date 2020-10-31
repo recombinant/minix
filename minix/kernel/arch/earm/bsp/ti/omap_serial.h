@@ -1,5 +1,5 @@
-#ifndef _OMAP_SERIAL_H
-#define _OMAP_SERIAL_H
+#ifndef MINIX_KERNEL_ARCH_EARM_BSP_TI_OMAP_SERIAL_H_
+#define MINIX_KERNEL_ARCH_EARM_BSP_TI_OMAP_SERIAL_H_
 
 /* UART register map */
 #define OMAP3_DM37XX_DEBUG_UART_BASE 0x49020000 /* UART3 physical address */
@@ -24,4 +24,4 @@ void omap3_ser_putc(char c);
 
 #endif /* __ASSEMBLY__ */
 
-#endif /* _OMAP_SERIAL_H */
+#endif // MINIX_KERNEL_ARCH_EARM_BSP_TI_OMAP_SERIAL_H_

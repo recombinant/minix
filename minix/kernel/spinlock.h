@@ -1,5 +1,5 @@
-#ifndef __SPINLOCK_H__
-#define __SPINLOCK_H__
+#ifndef MINIX_KERNEL_SPINLOCK_H_
+#define MINIX_KERNEL_SPINLOCK_H_
 
 #include "kernel/kernel.h"
 
@@ -40,4 +40,4 @@ void arch_spinlock_unlock(atomic_t * sl);
 #define BKL_LOCK()	spinlock_lock(&big_kernel_lock)
 #define BKL_UNLOCK()	spinlock_unlock(&big_kernel_lock)
 
-#endif /* __SPINLOCK_H__ */
+#endif // MINIX_KERNEL_SPINLOCK_H_

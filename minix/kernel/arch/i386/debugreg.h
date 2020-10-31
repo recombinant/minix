@@ -1,5 +1,5 @@
-#ifndef __DEBUGREG_H__
-#define __DEBUGREG_H__
+#ifndef MINIX_KERNEL_ARCH_I386_DEBUGREG_H_
+#define MINIX_KERNEL_ARCH_I386_DEBUGREG_H_
 
 /* DR6: status flags */
 #define DR6_B(bp)	(1 << (bp))	/* breakpoint was triggered */
@@ -40,5 +40,4 @@ phys_bytes st_dr3(void);
 unsigned long st_dr6(void); 
 unsigned long st_dr7(void); 
 
-#endif /* __DEBUGREG_H__ */
-
+#endif // MINIX_KERNEL_ARCH_I386_DEBUGREG_H_

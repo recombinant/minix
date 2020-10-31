@@ -1,3 +1,6 @@
+#ifndef MINIX_KERNEL_SYSTEM_H_
+#define MINIX_KERNEL_SYSTEM_H_
+
 /* Function prototypes for the system library.  The prototypes in this file 
  * are undefined to NULL if the kernel call is not enabled in config.h.
  * The implementation is contained in src/kernel/system/.  
@@ -26,9 +29,6 @@
  *   Feb 24, 2004   created SYS_IRQCTL to support drivers  (Jorrit N. Herder) 
  *   Feb 02, 2004   created SYS_DEVIO to support drivers  (Jorrit N. Herder) 
  */ 
-
-#ifndef SYSTEM_H
-#define SYSTEM_H
 
 #include "kernel/kernel.h"
 
@@ -206,5 +206,4 @@ int do_padconf(struct proc * caller, message *m_ptr);
 #define do_padconf NULL
 #endif
 
-#endif	/* SYSTEM_H */
-
+#endif // MINIX_KERNEL_SYSTEM_H_

@@ -1,5 +1,5 @@
-#ifndef PROC_H
-#define PROC_H
+#ifndef MINIX_KERNEL_PROC_H_
+#define MINIX_KERNEL_PROC_H_
 
 #include <minix/const.h>
 #include <sys/cdefs.h>
@@ -287,4 +287,4 @@ int mini_send(struct proc *caller_ptr, endpoint_t dst_e, message *m_ptr,
 
 #endif /* __ASSEMBLY__ */
 
-#endif /* PROC_H */
+#endif // MINIX_KERNEL_PROC_H_

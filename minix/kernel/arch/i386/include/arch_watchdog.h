@@ -1,5 +1,5 @@
-#ifndef __I386_WATCHDOG_H__
-#define __I386_WATCHDOG_H__
+#ifndef MINIX_KERNEL_ARCH_I386_INCLUDE_ARCH_WATCHDOG_H_
+#define MINIX_KERNEL_ARCH_I386_INCLUDE_ARCH_WATCHDOG_H_
 
 #include "kernel/kernel.h"
 
@@ -25,4 +25,4 @@ int i386_watchdog_start(void);
 
 #define nmi_in_kernel(f)	((f)->cs == KERN_CS_SELECTOR)
 
-#endif /* __I386_WATCHDOG_H__ */
+#endif // MINIX_KERNEL_ARCH_I386_INCLUDE_ARCH_WATCHDOG_H_

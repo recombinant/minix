@@ -1,10 +1,10 @@
+#ifndef MINIX_KERNEL_PROTO_H_
+#define MINIX_KERNEL_PROTO_H_
+
 /* Function prototypes. */
 
-/* FIXME this is a hack how to avoid inclusion conflicts */
-#ifdef __kernel__
-
-#ifndef PROTO_H
-#define PROTO_H
+// /* FIXME this is a hack how to avoid inclusion conflicts */
+// #ifdef __kernel__
 
 #include <minix/safecopies.h>
 #include <machine/archtypes.h>
@@ -246,6 +246,7 @@ void busy_delay_ms(int ms);
 
 /* utility.c */
 void cpu_print_freq(unsigned cpu);
-#endif /* __kernel__ */
 
-#endif /* PROTO_H */
+// #endif /* __kernel__ */
+
+#endif // MINIX_KERNEL_PROTO_H_

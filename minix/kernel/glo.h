@@ -1,5 +1,5 @@
-#ifndef GLO_H
-#define GLO_H
+#ifndef MINIX_KERNEL_GLO_H_
+#define MINIX_KERNEL_GLO_H_
 
 /* Global variables used in the kernel. This file contains the declarations;
  * storage space for the variables is allocated in table.c, because EXTERN is
@@ -91,4 +91,4 @@ EXTERN unsigned bkl_succ[CONFIG_MAX_CPUS];
 /* Feature flags */
 EXTERN int minix_feature_flags;
 
-#endif /* GLO_H */
+#endif // MINIX_KERNEL_GLO_H_

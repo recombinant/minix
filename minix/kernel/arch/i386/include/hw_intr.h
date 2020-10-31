@@ -1,5 +1,5 @@
-#ifndef __HW_INTR_X86_H__
-#define __HW_INTR_X86_H__
+#ifndef MINIX_KERNEL_ARCH_I386_INCLUDE_HW_INTR_H_
+#define MINIX_KERNEL_ARCH_I386_INCLUDE_HW_INTR_H_
 
 #include "kernel/kernel.h"
 void irq_8259_unmask(int irq);
@@ -51,4 +51,4 @@ void eoi_8259_slave(void);
 
 #endif
 
-#endif /* __HW_INTR_X86_H__ */
+#endif // MINIX_KERNEL_ARCH_I386_INCLUDE_HW_INTR_H_

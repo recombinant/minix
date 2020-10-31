@@ -1,7 +1,7 @@
-#ifndef _BSP_SERIAL_H_
-#define _BSP_SERIAL_H_
+#ifndef MINIX_KERNEL_ARCH_EARM_BSP_INCLUDE_BSP_SERIAL_H_
+#define MINIX_KERNEL_ARCH_EARM_BSP_INCLUDE_BSP_SERIAL_H_
 
 void bsp_ser_init(void);
 void bsp_ser_putc(char c);
 
-#endif /* _BSP_SERIAL_H_ */
+#endif // MINIX_KERNEL_ARCH_EARM_BSP_INCLUDE_BSP_SERIAL_H_

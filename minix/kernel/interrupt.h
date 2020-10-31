@@ -1,6 +1,6 @@
-#ifndef __INTERRUPT_H__
-#define __INTERRUPT_H__
+#ifndef MINIX_KERNEL_INTERRUPT_H_
+#define MINIX_KERNEL_INTERRUPT_H_
 
 #include "hw_intr.h"
 
-#endif /* __INTERRUPT_H__ */
+#endif // MINIX_KERNEL_INTERRUPT_H_

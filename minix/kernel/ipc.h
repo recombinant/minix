@@ -1,5 +1,5 @@
-#ifndef IPC_H
-#define IPC_H
+#ifndef MINIX_KERNEL_IPC_H_
+#define MINIX_KERNEL_IPC_H_
 
 /* This header file defines constants for MINIX inter-process communication.
  * These definitions are used in the file proc.c.
@@ -47,4 +47,4 @@
 #define IPC_STATUS_ADD_FLAGS(p, flags) \
     IPC_STATUS_ADD(p, IPC_STATUS_FLAGS(flags))
 
-#endif /* IPC_H */
+#endif // MINIX_KERNEL_IPC_H_

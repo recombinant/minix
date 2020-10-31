@@ -1,5 +1,5 @@
-#ifndef CONFIG_H
-#define CONFIG_H
+#ifndef MINIX_KERNEL_CONFIG_H_
+#define MINIX_KERNEL_CONFIG_H_
 
 /* This file defines the kernel configuration. It allows to set sizes of some
  * kernel buffers and to enable or disable debugging code, timing features, 
@@ -64,5 +64,4 @@
 
 #define K_PARAM_SIZE     512
 
-#endif /* CONFIG_H */
-
+#endif // MINIX_KERNEL_CONFIG_H_

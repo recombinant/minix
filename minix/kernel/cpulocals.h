@@ -1,6 +1,7 @@
+#ifndef MINIX_KERNEL_CPULOCALS_H_
+#define MINIX_KERNEL_CPULOCALS_H_
+
 /* Implementation of CPU local variables generics */
-#ifndef __CPULOCALS_H__
-#define __CPULOCALS_H__
 
 #ifndef __ASSEMBLY__
 
@@ -76,4 +77,4 @@ extern struct __cpu_local_vars {
 
 #endif /* __ASSEMBLY__ */
 
-#endif /* __CPULOCALS_H__ */
+#endif // MINIX_KERNEL_CPULOCALS_H_

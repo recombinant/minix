@@ -1,5 +1,5 @@
-#ifndef _ARM_CPUFUNC_H
-#define _ARM_CPUFUNC_H
+#ifndef MINIX_KERNEL_ARCH_EARM_INCLUDE_CPUFUNC_H_
+#define MINIX_KERNEL_ARCH_EARM_INCLUDE_CPUFUNC_H_
 
 #if 0
 /* check interrupt state */
@@ -460,4 +460,4 @@ static inline void write_cpsr(u32_t status)
 			: : [status] "r" (status));
 }
 
-#endif /* _ARM_CPUFUNC_H */
+#endif // MINIX_KERNEL_ARCH_EARM_INCLUDE_CPUFUNC_H_

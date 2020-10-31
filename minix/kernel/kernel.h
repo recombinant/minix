@@ -1,5 +1,5 @@
-#ifndef KERNEL_H
-#define KERNEL_H
+#ifndef MINIX_KERNEL_KERNEL_H_
+#define MINIX_KERNEL_KERNEL_H_
 
 /* boot verbose */
 #define CONFIG_BOOT_VERBOSE
@@ -61,4 +61,4 @@
 
 #endif /* __ASSEMBLY__ */
 
-#endif /* KERNEL_H */
+#endif // MINIX_KERNEL_KERNEL_H_

@@ -1,5 +1,5 @@
-#ifndef __APIC_H__
-#define __APIC_H__
+#ifndef MINIX_KERNEL_ARCH_I386_APIC_H_
+#define MINIX_KERNEL_ARCH_I386_APIC_H_
 
 #define APIC_ENABLE		0x100
 #define APIC_FOCUS_DISABLED	(1 << 9)
@@ -198,4 +198,4 @@ void apic_ipi_halt_intr(void);
 
 #endif /* __ASSEMBLY__ */
 
-#endif /* __APIC_H__ */
+#endif // MINIX_KERNEL_ARCH_I386_APIC_H_

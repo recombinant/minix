@@ -1,5 +1,5 @@
-#ifndef __GLO_X86_H__
-#define __GLO_X86_H__
+#ifndef MINIX_KERNEL_ARCH_I386_GLO_H_
+#define MINIX_KERNEL_ARCH_I386_GLO_H_
 
 #include "kernel/kernel.h"
 #include "arch_proto.h"
@@ -11,4 +11,4 @@ EXTERN struct tss_s tss[CONFIG_MAX_CPUS];
 
 EXTERN int i386_paging_enabled;
 
-#endif /* __GLO_X86_H__ */
+#endif // MINIX_KERNEL_ARCH_I386_GLO_H_

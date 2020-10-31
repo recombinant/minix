@@ -1,5 +1,5 @@
-#ifndef __WATCHDOG_H__
-#define __WATCHDOG_H__
+#ifndef MINIX_KERNEL_WATCHDOG_H_
+#define MINIX_KERNEL_WATCHDOG_H_
 
 #include "kernel/kernel.h"
 #include "arch_watchdog.h"
@@ -47,4 +47,4 @@ void nmi_watchdog_handler(struct nmi_frame * frame);
 int nmi_watchdog_start_profiling(const unsigned freq);
 void nmi_watchdog_stop_profiling(void);
 
-#endif /* __WATCHDOG_H__ */
+#endif // MINIX_KERNEL_WATCHDOG_H_

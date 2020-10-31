@@ -1,5 +1,5 @@
-#ifndef __SMP_X86_H__
-#define __SMP_X86_H__
+#ifndef MINIX_KERNEL_ARCH_I386_INCLUDE_ARCH_SMP_H_
+#define MINIX_KERNEL_ARCH_I386_INCLUDE_ARCH_SMP_H_
 
 #include "arch_proto.h" /* K_STACK_SIZE */
 
@@ -27,5 +27,4 @@ extern unsigned char cpuid2apicid[CONFIG_MAX_CPUS];
 
 #endif
 
-#endif /* __SMP_X86_H__ */
-
+#endif // MINIX_KERNEL_ARCH_I386_INCLUDE_ARCH_SMP_H_

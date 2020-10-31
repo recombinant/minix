@@ -1,6 +1,7 @@
+#ifndef MINIX_KERNEL_CONST_H_
+#define MINIX_KERNEL_CONST_H_
+
 /* General macros and constants used by the kernel. */
-#ifndef CONST_H
-#define CONST_H
 
 #include <minix/config.h>
 #include <minix/bitmap.h>
@@ -50,4 +51,4 @@
 #define USR_STACKTOP_COMPACT 0x50000000
 #endif
 
-#endif /* CONST_H */
+#endif // MINIX_KERNEL_CONST_H_

@@ -1,6 +1,5 @@
-
-#ifndef _I386_PROTO_H
-#define _I386_PROTO_H
+#ifndef MINIX_KERNEL_ARCH_I386_INCLUDE_ARCH_PROTO_H_
+#define MINIX_KERNEL_ARCH_I386_INCLUDE_ARCH_PROTO_H_
 
 #include <machine/vm.h>
 
@@ -281,4 +280,4 @@ int breakpoint_set(phys_bytes linaddr, int bp, const int flags);
 
 #endif /* __ASSEMBLY__ */
 
-#endif
+#endif // MINIX_KERNEL_ARCH_I386_INCLUDE_ARCH_PROTO_H_

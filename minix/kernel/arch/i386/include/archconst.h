@@ -1,6 +1,5 @@
-
-#ifndef _I386_ACONST_H
-#define _I386_ACONST_H 1
+#ifndef MINIX_KERNEL_ARCH_I386_INCLUDE_ARCHCONST_H_
+#define MINIX_KERNEL_ARCH_I386_INCLUDE_ARCHCONST_H_
 
 #include <machine/interrupt.h>
 #include <machine/memory.h>
@@ -172,4 +171,4 @@
 #define KTS_SYSENTER	6 /* SYSENTER instruction (usermapped) */
 #define KTS_SYSCALL	7 /* SYSCALL instruction (usermapped) */
 
-#endif /* _I386_ACONST_H */
+#endif // MINIX_KERNEL_ARCH_I386_INCLUDE_ARCHCONST_H_

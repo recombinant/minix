@@ -1,6 +1,5 @@
-
-#ifndef _ARM_PROTO_H
-#define _ARM_PROTO_H
+#ifndef MINIX_KERNEL_ARCH_EARM_INCLUDE_ARCH_PROTO_H_
+#define MINIX_KERNEL_ARCH_EARM_INCLUDE_ARCH_PROTO_H_
 
 #include <machine/vm.h>
 
@@ -122,4 +121,4 @@ void arch_ser_init(void);
 
 #endif /* __ASSEMBLY__ */
 
-#endif
+#endif // MINIX_KERNEL_ARCH_EARM_INCLUDE_ARCH_PROTO_H_

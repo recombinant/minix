@@ -1,3 +1,5 @@
+#ifndef MINIX_KERNEL_ARCH_I386_OXPCIE_H_
+#define MINIX_KERNEL_ARCH_I386_OXPCIE_H_
 
 void oxpcie_set_vaddr(unsigned char *vaddr);
 void oxpcie_putc(char c);
@@ -29,3 +31,4 @@ int oxpcie_in(void);
 
 #define         LCR_CONFIG      0x03 /* bits 6:0 -= 0x03 => 8N1, no break. */
 
+#endif // MINIX_KERNEL_ARCH_I386_OXPCIE_H_

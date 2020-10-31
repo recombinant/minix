@@ -1,5 +1,5 @@
-#ifndef _OMAP_TIMER_REGISTERS_H
-#define _OMAP_TIMER_REGISTERS_H
+#ifndef MINIX_KERNEL_ARCH_EARM_BSP_TI_OMAP_TIMER_REGISTERS_H_
+#define MINIX_KERNEL_ARCH_EARM_BSP_TI_OMAP_TIMER_REGISTERS_H_
 
 
 /* General-purpose timer register map */
@@ -154,4 +154,4 @@
 #define TIMER_FREQ  1000    /* clock frequency for OMAP timer (1ms) */
 #define TIMER_COUNT(freq) (TIMER_FREQ/(freq)) /* initial value for counter*/
 
-#endif /* _OMAP_TIMER_REGISTERS_H */
+#endif // MINIX_KERNEL_ARCH_EARM_BSP_TI_OMAP_TIMER_REGISTERS_H_

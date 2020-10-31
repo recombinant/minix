@@ -1,6 +1,5 @@
-#ifndef __APIC_ASM_H__
-#define __APIC_ASM_H__
-
+#ifndef MINIX_KERNEL_ARCH_I386_APIC_ASM_H_
+#define MINIX_KERNEL_ARCH_I386_APIC_ASM_H_
 
 #ifndef __ASSEMBLY__
 #include "kernel/kernel.h"
@@ -90,4 +89,4 @@ EXTERN char lapic_intr_dummy_handles_end;
 
 #endif /* APIC_DEBUG */
 
-#endif /* __APIC_ASM_H__ */
+#endif // MINIX_KERNEL_ARCH_I386_APIC_ASM_H_

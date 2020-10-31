@@ -1,5 +1,5 @@
-#ifndef _CCNT_H
-#define _CCNT_H
+#ifndef MINIX_KERNEL_ARCH_EARM_INCLUDE_CCNT_H_
+#define MINIX_KERNEL_ARCH_EARM_INCLUDE_CCNT_H_
 
 /* ARMV7 PMU (performance monitors) */
 /* ARM ARM B4.1.116 */
@@ -19,4 +19,4 @@
 /* ARM ARM B4.1.124 PMUSERENR */
 #define PMU_PMUSERENR_EN	(1 << 0) /* User mode access enable bit */
 
-#endif /* _CCNT_H */
+#endif // MINIX_KERNEL_ARCH_EARM_INCLUDE_CCNT_H_

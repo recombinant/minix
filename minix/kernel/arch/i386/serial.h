@@ -1,6 +1,5 @@
-
-#ifndef _KERN_SERIAL_H
-#define _KERN_SERIAL_H 1
+#ifndef MINIX_KERNEL_ARCH_I386_SERIAL_H_
+#define MINIX_KERNEL_ARCH_I386_SERIAL_H_
 
 #define THRREG  0	/* transmitter holding, write-only, DLAB must be clear */
 #define RBRREG  0	/* receiver buffer, read-only, DLAB must be clear */
@@ -35,4 +34,4 @@
 
 #define UART_BASE_FREQ	115200U	
 
-#endif
+#endif // MINIX_KERNEL_ARCH_I386_SERIAL_H_

@@ -1,6 +1,5 @@
-
-#ifndef _VM_H
-#define _VM_H 1
+#ifndef MINIX_KERNEL_VM_H_
+#define MINIX_KERNEL_VM_H_
 
 /* Pseudo error codes */
 #define VMSUSPEND       (-996)
@@ -13,6 +12,4 @@
 	catch_pagefaults--;			\
 	}
 
-#endif
-
-
+#endif // MINIX_KERNEL_VM_H_
